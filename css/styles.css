@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR:wght@200&display=swap");
+/* components */
+@import "components/screen-header.css";
+
+/* screens */
+
+body {
+  background-color: #f3f6f8;
+  font-family: "Anton", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+}
