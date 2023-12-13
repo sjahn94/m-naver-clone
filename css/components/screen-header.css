@@ -109,6 +109,7 @@ input::placeholder{
   justify-content: center;
   align-items: center;
 }
+
 .menu-list span{
   display: flex;
   flex-direction: column;
