@@ -132,7 +132,7 @@ input::placeholder{
 
 .main-screen__weather{
   background-color: white;
-  width: 410px;
+  width: 100%;
   height: 60px;
   border-radius: 12px;
   position: relative;
@@ -151,6 +151,7 @@ input::placeholder{
   justify-content: center;
   align-items: center;
   margin-top: 15px;
+  margin-left: 55px;
 }
 
 .weather-text__temper{
@@ -180,20 +181,19 @@ input::placeholder{
 
 .main-screen__shopping{
   display: flex;
-  width: 430px;
+  width: 100%;
   height: 110px;
   background-color: white;
   margin-top: 12px;
 
 }
 
-
 .shopping-icons{
-  margin-left: 50px;
+  margin-left: 25px;
 }
 .shopping-icons img{
-  width: 65px;
-  height: 65px;
+  width: 55px;
+  height: 55px;
   margin-right: 5px;
   margin-top: 15px;
 } 
@@ -215,7 +215,7 @@ input::placeholder{
 
 .main-screen__shorts{
   background-color: white;
-  width: 430px;
+  width: 100%;
   height: 400px;
   margin-top: 12px;
   border-radius: 12px;
@@ -254,5 +254,5 @@ input::placeholder{
 .shorts-list__column img{
   width: 120px;
   height: 184px;
-  margin-right: 25px;
+  margin-right: 10px;
 }
