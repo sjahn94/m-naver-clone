@@ -132,7 +132,11 @@ input::placeholder{
 
 .main-screen__weather{
   background-color: white;
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 90vw;
+>>>>>>> master
   height: 60px;
   border-radius: 12px;
   position: relative;
@@ -151,7 +155,11 @@ input::placeholder{
   justify-content: center;
   align-items: center;
   margin-top: 15px;
+<<<<<<< HEAD
   margin-left: 55px;
+=======
+  margin-left: 40px;
+>>>>>>> master
 }
 
 .weather-text__temper{
@@ -181,7 +189,11 @@ input::placeholder{
 
 .main-screen__shopping{
   display: flex;
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 90vw;
+>>>>>>> master
   height: 110px;
   background-color: white;
   margin-top: 12px;
@@ -189,11 +201,19 @@ input::placeholder{
 }
 
 .shopping-icons{
+<<<<<<< HEAD
   margin-left: 25px;
 }
 .shopping-icons img{
   width: 55px;
   height: 55px;
+=======
+  margin-left: 15px;
+}
+.shopping-icons img{
+  width: 55px;
+  height: 65px;
+>>>>>>> master
   margin-right: 5px;
   margin-top: 15px;
 } 
@@ -240,7 +260,7 @@ input::placeholder{
 
 .shorts-list{
   display: flex;
-  margin-left: 12px;
+  margin-left: 5px;
 }
 .shorts-list__column{
   display: flex;
@@ -248,8 +268,9 @@ input::placeholder{
 }
 
 .shorts-list__column span{
-  width: 80%;
+  display: block;
   font-size: 12px;
+  white-space: pre-line;
 }
 .shorts-list__column img{
   width: 120px;
