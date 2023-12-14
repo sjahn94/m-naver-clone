@@ -120,4 +120,139 @@ input::placeholder{
   font-size: 12px;
 }
 
+.main-screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
 
+.main-screen__weather{
+  background-color: white;
+  width: 410px;
+  height: 60px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.weather-icon img{
+  margin: 0px 10px;
+  width: 57.56px;
+  height: 40.69px;
+  position: absolute;
+  top: 8px;
+}
+
+.weatcher-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.weather-text__temper{
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.weather-text__area{
+  font-weight: 800;
+  font-size: 20px;
+  text-indent: 4px;
+}
+
+
+.weather-text__dust,
+.weather-text__dust__status,
+.weather-text__cdust,
+.weather-text__cdust__status{
+  text-indent: 4px;
+  font-size: 16px;
+}
+
+.weather-text__dust__status,
+.weather-text__cdust__status{
+  color: #40B3FF;
+}
+
+.main-screen__shopping{
+  display: flex;
+  width: 430px;
+  height: 110px;
+  background-color: white;
+  margin-top: 12px;
+
+}
+
+
+.shopping-icons{
+  margin-left: 50px;
+}
+.shopping-icons img{
+  width: 65px;
+  height: 65px;
+  margin-right: 5px;
+  margin-top: 15px;
+} 
+
+.shopping-live img{
+  margin-top: 16px;
+  margin-left: 25px;
+  width: 41px;
+  height: 23px;
+}
+
+.shopping-live span{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 18px;
+}
+
+.main-screen__shorts{
+  background-color: white;
+  width: 430px;
+  height: 400px;
+  margin-top: 12px;
+  border-radius: 12px;
+}
+
+.main-screen__shorts h1{
+  font-size: 24px;
+  margin-left: 12px;
+}
+
+.main-screen__shorts h2{
+  color: #4384F7;
+  margin-left: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main-screen__shorts img{
+  width: 24px;
+  height: 24px;
+}
+
+.shorts-list{
+  display: flex;
+  margin-left: 12px;
+}
+.shorts-list__column{
+  display: flex;
+  flex-direction: column;
+}
+
+.shorts-list__column span{
+  width: 80%;
+  font-size: 12px;
+}
+.shorts-list__column img{
+  width: 120px;
+  height: 184px;
+  margin-right: 25px;
+}
