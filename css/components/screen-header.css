@@ -132,7 +132,7 @@ input::placeholder{
 
 .main-screen__weather{
   background-color: white;
-  width: 90vw;
+  width: 340px;
   height: 60px;
   border-radius: 12px;
   position: relative;
@@ -140,7 +140,7 @@ input::placeholder{
 
 .weather-icon img{
   margin: 0px 10px;
-  width: 57.56px;
+  width: 55px;
   height: 40.69px;
   position: absolute;
   top: 8px;
@@ -151,7 +151,7 @@ input::placeholder{
   justify-content: center;
   align-items: center;
   margin-top: 15px;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 .weather-text__temper{
@@ -181,7 +181,7 @@ input::placeholder{
 
 .main-screen__shopping{
   display: flex;
-  width: 90vw;
+  width: 350px;
   height: 110px;
   background-color: white;
   margin-top: 12px;
